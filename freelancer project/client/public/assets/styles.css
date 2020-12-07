@@ -1,0 +1,207 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/*Navbar*/
+
+
+.navbar {
+  padding: 0 2rem 0;
+}
+.nav-color{
+  background-color: #0000FF;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 8%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-Light";
+  color: black;
+}
+/*Navbar*/
+
+/*Main section*/
+
+
+
+.big-heading {
+  font-family: sans-serif ;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 30px;
+  margin-top: 180px;
+  color:white;
+}
+
+.main-section{
+  height: 700px;
+  padding: 0 8%;
+}
+#bgvideo {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+
+
+
+.head1{
+  background-image: url('images/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#title {
+    text-align: center;
+  }
+
+.hire{
+  background-color: #0000FF;
+
+}
+.download-button {
+    padding:10px 15px;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+
+.earn{
+  margin-left: 15px;
+}
+/*Main section*/
+
+/*Second section*/
+.white-section {
+  background-color: #fff;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+.feature-heading{
+  color:black;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.icon {
+  color:black;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0000FF;
+}
+/*Second section*/
+
+
+/*Carousel*/
+.details{
+  height: 650px;
+}
+.heading
+{
+  font-family: serif;
+  font-size: 6rem;
+  color: white;
+  font-weight: bolder;
+  padding: 150px 50px 0;
+}
+
+.description{
+  margin-top:40px;
+  font-size: 2.5rem;
+  color:white;
+}
+.brand-name{
+  color:#1569C7;
+}
+/*Carousel*/
+
+/*Footer*/
+.social-icon {
+  margin: 20px 10px;
+
+}
+
+.footer-section{
+  background-color: #1569C7;
+}
+.copyright-brand{
+  font-weight: bolder;
+}
+/*Footer*/
+
+
+.car-item1{
+  background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0, 0, 0, 0.5)), url('images/laptop-2838921_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.car-item2{
+  background-image: url('images/coffee-1276784_1920.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center center;
+  background-blend-mode:lighten
+}
+
+.car-item3{
+  background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0, 0, 0, 0.5)), url('images/blog-business-copywriter-couch.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  background-position: center center;
+}
+
+.car-item-4{
+  background-image:linear-gradient(rgba(0,0,0, 0.8), rgba(0, 0, 0, 0.7)), url('images/austin-distel-744oGeqpxPQ-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.car-item5{
+  background-image:linear-gradient(rgba(0,0,0, 0.7), rgba(0, 0, 0, 0.5)), url('images/danielle-macinnes-IuLgi9PWETU-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
