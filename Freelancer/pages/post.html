@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome To Freelancer</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="index.html">Freelancer</a>
+      </h1>
+      <ul>
+        <li><a href="profiles.html">Hire Freelancers</a></li>
+        <li><a href="posts.html">Browse Projects</a></li>
+		<li><a href="createPost.html">Post Project</a></li>
+        <li>
+          |
+          <a href="dashboard.html" title="Dashboard"
+            ><i class="fas fa-user"></i>
+            <span class="hide-sm">Dashboard</span></a
+          >
+        </li>
+        <li>
+          <a href="login.html" title="Logout">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="hide-sm">Logout</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    
+	  <div id="backButton">
+	  <a href="posts.html" class="btn">Back To Posts</a>
+	  </div>
+	  <div>
+	  
+		<table id="postsTable">
+			<tr>
+				<th>Name</th>
+				<td id="postsTableId"><a href="profile.html">
+            <h4>Siddhanth</h4>
+          </a></td>
+			</tr>
+			<tr>
+				<th>Project Title</th>
+				<td id="postsTableTitle">Build a Ordering Website with Billing / Suspension using api call</td>
+			</tr>
+			<tr>
+				<th>Description</th>
+				<td id="postsTableDescription">Telephony ordering portal. Grabs telephone number availability using api call via JSON. In either order (Payment first or Availability first) Then sends to Stripe for payment. Once payment is successful. Creates telephone number and a unique huntgroup via api. then asks customer for 1-3 Numbering Destinations and updates the hunt group.Ideally we would love a collections management (automatic payment collection every 30 days) with either autosuspend or email sent to notify staff of overdue payment.If reasonably priced solution we would be interested in a portal that allows continued changes and cancellation if required.</td>
+			</tr>
+			<tr>
+				<th>Skills Required</th>
+				<td id="postsTableSkills">PHP,HTML,CSS,JS,NODE,PYTHON</td>
+			<tr>
+				<th>Salary</th>
+				<td id="postsTableMoney">5000 rs</td>
+			</tr>
+			<tr>
+				<th>Posted on</th>
+				<td id="postsTableDate">29/11/2020</td>
+			</tr>
+			<tr>
+				<th>Deadline</th>
+				<td id="postsTableDeadline">6 days</td>
+			</tr>
+			<tr>
+				<th>Contact details</th>
+				<td id="postsTableEmail">tsangtom009@gmail.com</td>
+			</tr>
+		</table>
+		</div>
+  </body>
+</html>
